@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-03-15T12:19:17.377Z",
+        "start_timestamp": "2021-03-15T12:40:20.358Z",
         "line": 3,
         "name": "Sanity test execution",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1462000,
+              "duration": 1878000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 114000,
+              "duration": 138000,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 88000,
+              "duration": 98000,
               "status": "passed"
             },
             "line": 6,
