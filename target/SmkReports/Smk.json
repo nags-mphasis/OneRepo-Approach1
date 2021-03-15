@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-15T12:12:16.490Z",
+        "line": 3,
+        "name": "Smoke test execution",
+        "description": "",
+        "id": "smk-test;smoke-test-execution",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1631000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "smk chosen",
+            "match": {
+              "location": "SmkCls.SmkClass.smk_chosen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters this section",
+            "match": {
+              "location": "SmkCls.SmkClass.enters_this_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "produce smoke test report",
+            "match": {
+              "location": "SmkCls.SmkClass.produce_smoke_test_report()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SMK Test",
+    "description": "",
+    "id": "smk-test",
+    "keyword": "Feature",
+    "uri": "file:Smoke/SmkFtr/Smk.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-15T12:19:17.377Z",
+        "line": 3,
+        "name": "Sanity test execution",
+        "description": "",
+        "id": "snt-test;sanity-test-execution",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1462000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "snt chosen",
+            "match": {
+              "location": "SntCls.SntClass.snt_chosen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "comes inside the block",
+            "match": {
+              "location": "SntCls.SntClass.comes_inside_the_block()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "produce sanity test report",
+            "match": {
+              "location": "SntCls.SntClass.produce_sanity_test_report()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SNT Test",
+    "description": "",
+    "id": "snt-test",
+    "keyword": "Feature",
+    "uri": "file:Sanity/SntFtr/Snt.feature",
+    "tags": []
+  }
+]
