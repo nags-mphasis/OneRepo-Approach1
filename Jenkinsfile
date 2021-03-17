@@ -8,7 +8,7 @@ pipeline {
                 sh './gradlew clean'
             }
         }
-        stage('check') {
+        stage('check1') {
             steps {
                 input "Does the staging environment look ok?"
             }
@@ -21,6 +21,11 @@ pipeline {
                 fileIncludePattern: '**/Smk.json'
             }
         }
+       stage('check2') {
+            steps {
+                input "Does the staging environment look ok?"
+            }
+        }
         stage('Sanity Test') {
             steps {
                 sh './gradlew clean test -Dcucumber.options="Sanity/SntFtr/Snt.feature"'
@@ -29,7 +34,7 @@ pipeline {
                 fileIncludePattern: '**/Snt.json'
             }
         }
-        stage('Sanity check') {
+        stage('check3') {
             steps {
                 input "Does the staging environment look ok?"
             }
